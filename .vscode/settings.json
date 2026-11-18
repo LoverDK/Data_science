@@ -1,0 +1,20 @@
+{
+    "mssql.intelliSense.enableErrorChecking": false,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "study",
+            "database": "ml",
+            "username": "root",
+            "askForPassword": true
+        }
+    ]
+}
