@@ -1,6 +1,7 @@
 -- @conn study
 
 SELECT 1 AS test;
+delete from most_possible_foundation;
 insert into most_possible_foundation
 select foundation_type,
 case when damage_grade_1 >= damage_grade_2 and damage_grade_1 >= damage_grade_3 then 1
