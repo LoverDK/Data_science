@@ -17,3 +17,8 @@ create table if not exists wrong_analysis_foundation(
     `从对变错` int comment '一律预测2级判对,且地基规则判错',
     `净增正确数` int
 );
+
+
+
+alter table prediction add column `预测为3的数量` int;
+alter table prediction add column `3级命中数` int;
