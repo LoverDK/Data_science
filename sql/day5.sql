@@ -62,3 +62,4 @@ begin
     close cur;
 end//
 delimiter ;
+call loop_columns();
